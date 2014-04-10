@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('mddSampleApp')
-  .controller('MainCtrl', function ($scope) {
+var mainControllers = angular.module('mddSampleApp');
+  mainControllers.controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
