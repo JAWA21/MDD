@@ -1,10 +1,9 @@
 'use strict';
 
-angular
-  .module('mddSampleApp', [
+var myApp = angular.module('mddSampleApp', [
     'ngRoute'
   ])
-  .config(function ($routeProvider) {
+myApp.config(['$routeProvider', function ($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
@@ -22,4 +21,4 @@ angular
       .otherwise({
         redirectTo: '/'
       });
-  });
+  }]);
