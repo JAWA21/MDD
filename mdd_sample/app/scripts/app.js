@@ -1,5 +1,3 @@
-'use strict';
-
 var myApp = angular.module('mddSampleApp', [
     'ngRoute'
   ])
