@@ -35,14 +35,19 @@
             <hr>
           </div>
 
-          <div class="col-lg-12 text-center" ng-repeat="item in projexts | filter: query | orderBy: artistOrder:direction">
-            <img class="img-responsive img-border img-full" ng-src="images/{{item.filename}}.png">
+          <ul>
+            <li ng-repeat="item in projects">
+                  <div class="col-lg-12 text-center" >
+                    <img class="img-responsive img-border img-full" ng-src="images/{{item.filename}}.png">
 
-            <h2>{{item.name}}<br><small>October 13, 2013</small></h2>
-            <p>{{item.desc}}</p>
-            <a href="#/details/{{proj.indexOf(item)}}" class="btn btn-default btn-lg">Read More</a>
-            <hr>
-          </div>
+                    <h2>{{item.name}}<br><small>October 13, 2013</small></h2>
+                    <p>{{item.desc}}</p>
+                    <a href="#/details/{{proj.indexOf(item)}}" class="btn btn-default btn-lg">Read More</a>
+                    <hr>
+                  </div>
+            </li>
+          </ul>
+
 
 
        <!--    <div class="col-lg-12 text-center">
@@ -51,6 +56,7 @@
               <li class="next"><a href="#">Newer &rarr;</a></li>
             </ul>
           </div> -->
+
         </div> <!-- /.box -->
       </div> <!-- /.row -->
 
