@@ -3,11 +3,12 @@
     "name":"Mobile Login",
     "filename":"mobileLogin",
     "type":"Web",
-    "desc":"Created as part of weekly design challenge between classmates.",
+    "desc":"Created as part of weekly design challenge between classmates."
   },
   {
     "name":"Project Proposal",
     "filename":"projectProposal",
     "type":"Web",
-    "desc":"Project created in PPP class",
+    "desc":"Project created in PPP class"
   }
+]
