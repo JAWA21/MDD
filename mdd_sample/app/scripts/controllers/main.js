@@ -6,8 +6,6 @@ var mainControllers = angular.module('mddSampleApp')
       'AngularJS',
       'Karma'
     ];
-
-    $scope.text = 'Hello, Angular fanatic.';
   });
 
     mainControllers.controller('ProjectsCtrl', ['$scope', '$http', function($scope, $http) {
