@@ -15,7 +15,9 @@ var mainControllers = angular.module('mddSampleApp');
     //   console.log($scope.projects);
     // });
 
-       $http({method: 'GET', url: 'scripts/data.json'}).
+     //$http.get('../scripts/data.json').success(successCallback);
+
+       $http({method: 'GET', url: '../scripts/data.json'}).
     success(function(data, status, headers, config) {
        console.log(data);
      $scope.projects = data;
