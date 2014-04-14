@@ -1,10 +1,13 @@
-var mainControllers = angular.module('mddSampleApp');
+var mainControllers = angular.module('mddSampleApp')
+
     mainControllers.controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
+
+    $scope.text = 'Hello, Angular fanatic.';
   });
 
     mainControllers.controller('ProjectsCtrl', ['$scope', '$http', function($scope, $http) {
