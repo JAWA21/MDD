@@ -1,13 +1,19 @@
 [
   {
-    "name":"Mobile Login",
+    "names":"Mobile Login",
     "filename":"mobileLogin",
     "type":"Web",
     "desc":"Created as part of weekly design challenge between classmates."
   },
   {
-    "name":"Project Proposal",
+    "names":"Project Proposal",
     "filename":"projectProposal",
+    "type":"Web",
+    "desc":"Project created in PPP class"
+  },
+  {
+    "names":"Email Wire",
+    "filename":"emailWires",
     "type":"Web",
     "desc":"Project created in PPP class"
   }

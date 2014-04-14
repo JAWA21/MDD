@@ -15,8 +15,10 @@ myApp.config(['$routeProvider', function ($routeProvider) {
       }).when('/contact', {
         templateUrl: 'views/contact.html',
         controller: 'MainCtrl'
-      })
-      .otherwise({
+      }).when('/details/:itemId', {
+        templateUrl: 'views/details.html',
+        controller: 'DetailsCtrl'
+  }).otherwise({
         redirectTo: '/'
       });
   }]);

@@ -1,0 +1,64 @@
+    <div class="brand">JAWA.im</div>
+    <div class="address-bar">Twitter @scatzz88 | coderwall scatzz88 | 555.519.2013</div>
+
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#/">JAWA.im</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#/">Home</a></li>
+            <li><a href="#/about">About</a></li>
+            <li><a href="#/projects" class="active">Projects</a></li>
+            <li><a href="#/contact">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="box" ng-model="projs" >
+          <div class="col-lg-12">
+                <a href="#/projects">&larr; Projects</a>
+                <hr>
+                <h2 class="intro-text text-center">{{projs[whichItem].names}} <strong>Detail</strong></h2>
+                <hr>
+          </div>
+
+          <ul class="unstyled proj">
+            <li>
+                  <div class="col-lg-12 text-center individ">
+                  <div class="col-xs-6 col-md-3">
+                    <img class="img-responsive thumbnail clear" ng-src="images/{{projs[whichItem].filename}}.png">
+                    </div>
+                    <h2>{{projs[whichItem].names}}<br><small>October 13, 2013</small></h2>
+                    <p>{{projs[whichItem].desc}}</p>
+                    <hr>
+                  </div>
+            </li>
+          </ul>
+
+
+
+          <div class="col-lg-12 text-center">
+            <ul class="pager">
+              <li class="previous"><a href="#/details/{{prevItem}}">&larr; Prev</a></li>
+              <li class="next"><a href="#/details/{{nextItem}}">Next &rarr;</a></li>
+            </ul>
+          </div>
+
+        </div> <!-- /.box -->
+      </div> <!-- /.row -->
+
+    </div><!-- /.container -->

@@ -107,6 +107,12 @@ footer p {
   margin: 0 auto;
 }
 
+.active {
+  height: 92px;
+  background-color: #3d3c3e;
+  box-shadow: none !important;
+}
+
 @media screen and (min-width: 768px) {
 
 .brand {
