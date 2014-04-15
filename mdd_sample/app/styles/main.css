@@ -43,9 +43,9 @@ hr {
   font-weight: 400;
 }
 
-.img-full {
+/*.img-full {
   min-width: 100%;
-}
+}*/
 
 .brand-name {
   font-weight: 700;
@@ -75,7 +75,7 @@ hr {
   font-weight: 400;
 }
 
-.img-border {
+/*.img-border {
   float: none;
   margin: 0 auto 0;
   border: #999999 solid 1px;
@@ -84,7 +84,7 @@ hr {
 .img-left {
   float: none;
   margin: 0 auto 0;
-}
+}*/
 
 footer {
   background: #fff;
@@ -96,18 +96,19 @@ footer p {
   padding: 50px 0;
 }
 
+a{
+  color: #FF530D;
+}
+
+.proj {
+  padding-left: 0;
+}
+
 .proj li {
   list-style: none;
-  clear: both;
-  overflow: hidden;
 }
 
-.individ img{
-  min-width: 50px;
-  margin: 0 auto;
-}
-
-.active {
+.nav .active {
   height: 92px;
   background-color: #3d3c3e;
   box-shadow: none !important;
@@ -131,10 +132,10 @@ footer p {
   margin-top: 0;
 }
 
-.img-left {
+/*.img-left {
   float: left;
   margin-right: 25px;
-}
+}*/
 
 .address-bar {
   display: inherit;

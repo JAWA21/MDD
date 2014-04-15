@@ -28,35 +28,26 @@
     <div class="container">
 
       <div class="row">
-        <div class="box">
+
+        <div class="box" ng-controller="ProjectsCtrl">
           <div class="col-lg-12">
             <hr>
             <h2 class="intro-text text-center">Projects &amp; <strong>Portfolio</strong></h2>
             <hr>
           </div>
 
-          <ul ng-controller="ProjectsCtrl" class="unstyled proj">
-            <li ng-repeat="item in projects">
-                  <div class="col-lg-12 text-center individ">
-                    <img class="img-responsive thumbnail clear" ng-src="images/{{item.filename}}.png">
-                    <h2>{{item.names}}<br><small>October 13, 2013</small></h2>
-                    <p>{{item.desc}}</p>
-                    <a href="#/details/{{projects.indexOf(item)}}" class="btn btn-default btn-lg">Read More</a>
-                    <hr>
-                  </div>
-            </li>
-          </ul>
 
 
-
-       <!--    <div class="col-lg-12 text-center">
-            <ul class="pager">
-              <li class="previous"><a href="#">&larr; Older</a></li>
-              <li class="next"><a href="#">Newer &rarr;</a></li>
-            </ul>
-          </div> -->
+<div class="row">
+    <div class="col-lg-2 col-sm-3 col-xs-4" ng-repeat="item in projects">
+        <a href="#/details/{{projects.indexOf(item)}}">
+             <img src="images/{{item.filename}}_th.jpg" class="thumbnail img-responsive">
+        </a>
+    </div>
+  </div>
 
         </div> <!-- /.box -->
+
       </div> <!-- /.row -->
 
     </div><!-- /.container -->

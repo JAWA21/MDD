@@ -16,5 +16,17 @@
     "filename":"emailWires",
     "type":"Web",
     "desc":"Project created in PPP class"
+  },
+  {
+    "names":"Influence Map",
+    "filename":"influenceMap",
+    "type":"Web",
+    "desc":"Project created in ADG, month 2"
+  },
+   {
+    "names":"Galaxy Command Comp",
+    "filename":"galaxyProj",
+    "type":"Web",
+    "desc":"Project created in PWA2 class"
   }
 ]
